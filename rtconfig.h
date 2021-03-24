@@ -201,6 +201,7 @@
 
 /* peripheral libraries and drivers */
 
+#define SDIO_MAX_FREQ 24000000
 /* end of peripheral libraries and drivers */
 
 /* AI packages */
@@ -225,6 +226,7 @@
 /* Onboard Peripheral Drivers */
 
 #define BSP_USING_USB_TO_USART
+#define BSP_USING_SDCARD
 /* end of Onboard Peripheral Drivers */
 
 /* On-chip Peripheral Drivers */
