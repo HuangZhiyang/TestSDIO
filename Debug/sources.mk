@@ -26,7 +26,10 @@ libcpu/cpu \
 libraries/hal_drivers \
 libraries/hal_libraries/ab32vg1_hal/source \
 libraries/hal_libraries/bmsis/source \
+rt-thread/components/dfs/filesystems/devfs \
+rt-thread/components/dfs/src \
 rt-thread/components/drivers/misc \
+rt-thread/components/drivers/sdio \
 rt-thread/components/drivers/serial \
 rt-thread/components/drivers/src \
 rt-thread/components/finsh \

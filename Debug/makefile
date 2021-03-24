@@ -14,7 +14,10 @@ RM := rm -rf
 -include rt-thread/components/finsh/subdir.mk
 -include rt-thread/components/drivers/src/subdir.mk
 -include rt-thread/components/drivers/serial/subdir.mk
+-include rt-thread/components/drivers/sdio/subdir.mk
 -include rt-thread/components/drivers/misc/subdir.mk
+-include rt-thread/components/dfs/src/subdir.mk
+-include rt-thread/components/dfs/filesystems/devfs/subdir.mk
 -include libraries/hal_libraries/bmsis/source/subdir.mk
 -include libraries/hal_libraries/ab32vg1_hal/source/subdir.mk
 -include libraries/hal_drivers/subdir.mk
