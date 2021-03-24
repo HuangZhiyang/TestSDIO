@@ -45,7 +45,7 @@ RTM_EXPORT(sleep);
 int usleep(useconds_t usec)
 {
     rt_thread_mdelay(usec / 1000u);
-    rt_hw_us_delay(usec % 1000u);
+    //rt_hw_us_delay(usec % 1000u);
     return 0;
 }
 RTM_EXPORT(usleep);
